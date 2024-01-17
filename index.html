@@ -1,80 +1,161 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
 
-<head>
-	<title>freeCodeCamp Survey Form</title>
-  <meta charset="UTF-8"/>
-  <link rel="stylesheet" href="styles.css"/>
-</head>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
-<body>
-  <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description" class="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+    
 
-  <form id="survey-form">
-    <fieldset>
-      <label for="name" id="name-label">Name <input id="name" type="text" name="name" required placeholder="Enter your Name"/></label>
-      <label for="email" id="email-label">Email <input id="email" type="email" name="email" required placeholder="Enter Your Email"/></label>
-      <label for="number" id="number-label">Age(optional) <input id="number" type="number" name="email" placeholder="Age" min="0" max="150"/></label>
-    </fieldset>
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hi, they call me RAO</h1>
+      <p>a student</p>
+    </section>
 
-    <fieldset>
-      <label for="currentrole">Which option best describes your current role?
-        <select id="dropdown" name="current" id="current">
-          <option value="0">Select current role</option> 
-          <option value="1">Student</option> 
-          <option value="2">Full time Job</option> 
-          <option value="3">Full time Learner</option> 
-          <option value="4">Prefer not to say</option> 
-          <option value="5">Other</option> 
-        </select>
-      </label>
-    </fieldset>
+    
 
-    <fieldset>
-      <label for="q2">Would you recommend freeCodeCamp to a friend?</label>
-      <label for "radbutton"><input id="definitely" type="radio" name="radbutton" value="definitely"/>Definitely</label>
-      <label for "radbutton"> <input id="maybe" type="radio" name="radbutton" value="maybe"/>Maybe</label>
-      <label for "radbutton"><input id="notsure" type="radio" name="radbutton" value="notsure"/>Not Sure</label>
-    </fieldset>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">Here are my freecodecamp projects</h2>
 
-    <fieldset>
-      <label for="fav">What is your favorite feature of freeCodeCamp?
-        <select id="dropdown" name="fav" id="fav"
-          <option value="0">Select an option</option> 
-          <option value="1">Challenges</option> 
-          <option value="2">Projects</option> 
-          <option value="3">Community</option> 
-          <option value="4">Open Source</option>
-        </select>
-      </label>
-    </fieldset>
+      <div class="projects-grid">
+        <a
+          href="https://renardoyam2341.github.io/surveyform/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://scontent.fcrk2-1.fna.fbcdn.net/v/t1.15752-9/313782692_1575426789554451_7772165262341821657_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH7DG-TD6FFMoofQmqCfc9cUkGzW4wbXShSQbNbjBtdKDEGvfHj0h87WxASnpPCEkF7amP9tdAwdNAJPlBfbv1U&_nc_ohc=7aygh9Ijy04AX_4jy7I&_nc_ht=scontent.fcrk2-1.fna&oh=03_AdTRPx6OAqkY7Ab1_S9_JhQou8yftJX_z9YOBmYbv2XJAA&oe=63A98871"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Survey Form
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://renardoyam2341.github.io/tribute/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://scontent.fcrk2-2.fna.fbcdn.net/v/t1.15752-9/317133274_534760238542679_409494358849896003_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEq1I-3C9RI8OrRaDEdoN4iYbw7esVLpr1hvDt6xUumvc9wBmRKiBWR9Snz4HxgG8IwWMziZX0VdhtI8B7K6bKQ&_nc_ohc=UFzdViAqEDEAX97s8kd&tn=fsheGoRkx0-jKWvu&_nc_ht=scontent.fcrk2-2.fna&oh=03_AdSVH48tnIH1oSWfbx4FhgsNSKDHPXlqQ7c-TomfCtmv7A&oe=63A9B267"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Tribute
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://renardoyam2341.github.io/TechnicalDocumentation/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://scontent.fcrk2-2.fna.fbcdn.net/v/t1.15752-9/316430776_543162077257037_5871108848727751658_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEObd5MWh8-NnTANW_SbiTYMDxjlbzQ2sswPGOVvNDay3idwNfz2VYKtUpaB7AGWwktzjvlt_YHG8LnFhEMQt4p&_nc_ohc=pHihzKLv3GMAX9hG5v-&_nc_ht=scontent.fcrk2-2.fna&oh=03_AdSnoq51FDWIqkIWjB-qX22fgPXxOD3K5WgulwL4ImT42Q&oe=63A99E5D"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Technical Documentation
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://renardoyam2341.github.io/ProductLandingPage/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://scontent.fcrk2-2.fna.fbcdn.net/v/t1.15752-9/317004382_667419681604983_6612238587261106615_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFFB9eWnu24pct8sTIeyr5-hCWYfuoO5E6EJZh-6g7kTtpjPCvpMX90HoSbxk2MSMPg-mRNZrfLIWDHV2Vb7JeT&_nc_ohc=4PoBgx5RidQAX9yzdWn&_nc_ht=scontent.fcrk2-2.fna&oh=03_AdRAoU0RauzKq754W-xxqFOGadsc6jwpsLncbvHKXvz_2g&oe=63A983D2"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Product Landing Page
+            <span class="code">&#47;&gt;</span>
+          
+      </div>
 
-    <fieldset>
-      <label for="question1">What would you like to see improved?</label>
-      <label for="frontend"> <input type="checkbox" id="frontend" value="frontend"> Front-end Projects </label>
-      <label for="backend"> <input type="checkbox" id="backend" value="backend"> Back-end Projects </label>
-      <label for="data"> <input type="checkbox" id="data" value="data"> Data Visualization </label>
-      <label for="chal"> <input type="checkbox" id="chal" value="chal"> Challenges </label>
-      <label for="open"> <input type="checkbox" id="open" value="open"> Open-source Community </label>
-      <label for="ghr"> <input type="checkbox" id="ghr" value="ghr"> Glitter help rooms </label>
-      <label for="vid"> <input type="checkbox" id="vid" value="vid"> Videos </label>
-      <label for="ctm"> <input type="checkbox" id="ctm" value="ctm"> City Meetups </label>
-      <label for="wiki"> <input type="checkbox" id="wiki" value="wiki"> Wiki </label>
-      <label for="forum"> <input type="checkbox" id="forum" value="forum"> Forum </label>
-      <label for="addc"> <input type="checkbox" id="addc" value="addc"> Additional Courses </label>
-    </fieldset>
+      <a
+        href="https://codepen.io/FreeCodeCamp/"
+        class="btn btn-show-all"
+        target="_blank"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+    </section>
 
-    <fieldset>
-        <label for="commsuggs">Any comments or suggestions?</label>
-        <label for="textarea">
-          <textarea id="commsuggs" name="commsuggs" placeholder="Enter your comment here..."></textarea>
-        </label>
-    </fieldset>
+    
 
-    <fieldset><label for="submitbutton"><input type="submit" value="Submit" id="submit"/></label></fieldset>
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>You like these?</h2>
+        <p>Check my socials</p>
+      </div>
+      <div class="contact-links">
+        
+        <a
+          id="profile-link"
+          href="https://github.com/renardoyam2341"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        
+        
+      </div>
+    </section>
 
-  </form>
+    
 
-</body>
+    <footer>
+      <p>
+        Dis is a real portpolio, check the projects out by clicking them.
+      </p>
+      <p>
+        &copy; Created at
+        <a href="https://www.freecodecamp.com/" target="_blank"
+          >freeCodeCamp <i class="fab fa-free-code-camp"></i
+        ></a>
+      </p>
+    </footer>
+
+    
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 </html>
